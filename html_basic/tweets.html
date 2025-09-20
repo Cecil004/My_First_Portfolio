@@ -2,29 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Cool First Webpage</title>
+  <title>My Tweets Page</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to My First Webpage</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
   </header>
 
   <main>
-    <h2>About Me</h2>
-    <p>Hello! My name is Cecil, and I’m learning how to build awesome websites using HTML, CSS, and JavaScript.</p>
-    <p>I enjoy coding, music, and cycling. My dream is to become a skilled front-end developer.</p>
+    <article>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Hello world! This is my first embedded tweet.</p>
+        &mdash; OpenAI (@OpenAI) 
+        <a href="https://twitter.com/OpenAI/status/1600244125219866624?ref_src=twsrc%5Etfw">December 6, 2022</a>
+      </blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-    <h3>My Hobbies</h3>
-    <p>I love playing guitar, singing pop music covers, and exploring Afrobeat vibes.</p>
-    <p>When I’m not coding or making music, I enjoy cycling and discovering new places.</p>
-
-    <a href="https://www.alxafrica.com">
-      <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-    </a>
+    <aside>
+      placeholder to add comment thread later
+    </aside>
   </main>
 
   <footer>
-    <p><a href="tweets.html">See My Tweets</a></p>
+    Made by Cecil Otieno - <a href="https://github.com/yourusername" target="_blank">My GitHub</a>
   </footer>
 </body>
 </html>
